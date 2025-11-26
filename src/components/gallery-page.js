@@ -18,8 +18,7 @@ const Gallery = () => {
               </span>
             </h2>
             <p className="text-base sm:text-lg mt-4 text-gray-800 text-center opacity-90">
-              Halaman ini menampilkan berbagai dokumentasi kegiatan sekolah yang menggambarkan semangat belajar, kreativitas, serta kebersamaan seluruh warga sekolah.
-              Melalui galeri ini, kami ingin berbagi momen-momen berharga dari setiap kegiatan akademik maupun nonakademik yang menjadi bagian dari perjalanan dan prestasi SMP Daan Mogot.
+              Selamat datang di Galeri Menu SeduhLoka. Di sini anda bisa melihat semua racikan kopi dan makanan pendamping yang kami tawarkan, jelajahi daftar menu kami dan temukan cita rasa yang sesuai dengan selera anda.
             </p>
           </div>
         </div>

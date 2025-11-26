@@ -91,14 +91,14 @@ const BlogPost = props => {
                 />
               </div>
             )}
-            <p className="text-base text-gray-500 dark:text-gray-400 lg:mb-2">
+            <p className="text-base text-black dark:text-gray-500 lg:mb-2">
               <time dateTime={isoDate} title={titlaDate}>
                 {formattedDate}
               </time>
             </p>
 
             <StyledDiv
-              className="post-content-body text-[#ffffff]"
+              className="post-content-body text-black"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <div className="flex items-center justify-between pt-8">
@@ -107,7 +107,7 @@ const BlogPost = props => {
                   style={{
                     display: previousLinkStatus ? "flex" : "none",
                     alignItems: "center",
-                    color: "#ffffff",
+                    color: "#000000",
                   }}
                   className="text-base	"
                   href={previousSlug}
@@ -128,7 +128,7 @@ const BlogPost = props => {
                   style={{
                     display: nextLinkStatus ? "flex" : "none",
                     alignItems: "center",
-                    color: "#ffffff",
+                    color: "#000000",
                   }}
                   className="text-base	"
                   href={nextSlug}
