@@ -68,10 +68,10 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-gray-900 mb-3">Informasi Perusahaan</h3>
           <h4>Alamat:</h4>
-          <a className="text-gray-700 text-sm hover:underline footer-link">
-            Jl. Merdeka No.50<br />
-            Kel. Nusa Indah Kec. Bekasi Utara <br />
-            Kota Bekasi, Jawa Barat 17124
+          <a className="text-gray-700 text-sm hover:underline footer-link" href="https://maps.app.goo.gl/iGzDh77fo69WWkpc6">
+           Jl. Danau Duta Selatan 17-2,RT.012/RW.014,<br>
+           </br>Harapan Baru Kec. Bekasi Utara<br>
+           </br>Kota Bekasi, Jawa Barat
           </a>
           <h4 className="mt-3">Email:</h4>  
           <a
@@ -122,7 +122,7 @@ const Footer = () => {
       </div>
 
       {/* Garis pemisah dan copyright */}
-      <div className="border-t border-amber-600 mt-8 pt-4 pb-4 text-center text-sm text-gray-700">
+      <div className="border-t border-amber-400 mt-8 pt-4 pb-4 text-center text-sm text-gray-800">
         © {new Date().getFullYear()} SeduhLoka. All rights reserved.
       </div>
     </footer>

@@ -49,11 +49,11 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-gray-400">
+                      <p className="mb-2 font-bold underline decoration-amber-400">
                         No.HP
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="https://wa.me/6281234567890">081234567890</a>
+                        <a href="https://wa.me/6285178229373">085178229373</a>
                       </p>
                     </div>
                   </div>
@@ -79,7 +79,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-gray-400">
+                      <p className="mb-2 font-bold underline decoration-amber-400">
                         Email
                       </p>
                       <p className="text-neutral-500 mb-2">
@@ -111,10 +111,10 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-gray-400">
+                      <p className="mb-2 font-bold underline decoration-amber-400">
                         Lokasi
                       </p>
-                      <a className="text-neutral-500 mb-2">Jl. Merdeka No.50 Kel. Nusa Indah Kec. Bekasi Utara Kota Bekasi, Jawa Barat 17124</a>
+                      <a className="text-neutral-500 mb-2" href="https://maps.app.goo.gl/iGzDh77fo69WWkpc6">Jl. Danau Duta Selatan 17-2,RT.012/RW.014, Harapan Baru Kec. Bekasi Utara Kota Bekasi, Jawa Barat</a>
                     </div>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-gray-400">
+                      <p className="mb-2 font-bold underline decoration-amber-400">
                         Jam Kerja
                       </p>
                       <p className="text-neutral-500 mb-2">Senin-Minggu</p>
