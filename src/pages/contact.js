@@ -11,14 +11,14 @@ const Contact = () => {
   return (
     <Layout>
       <Seo
-        title="Kontak SeduhLoka"
-        description="Cari tahu alamat SeduhLoka di Bekasi Utara, jam operasional, dan informasi kontak (telepon & email). Siap melayani pemesanan event dan pertanyaan Anda."
+        title="Kontak LoundryBox"
+        description="Cari tahu alamat LaundryBox di Bekasi Utara, jam operasional, dan informasi kontak (telepon & email). Siap melayani pemesanan event dan pertanyaan Anda."
       ></Seo>
 
-      <div className="max-w-7xl mx-auto mt-10 flex text-amber-200 xxs:flex-col sm:flex-row">
+      <div className="max-w-7xl mx-auto mt-10 flex text-sky-200 xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
-          <div className="bg-gradient-to-r from-amber-500 to-amber-800 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-amber-300 font-bold">INFORMASI SEDUHLOKA</h1>
+          <div className="bg-gradient-to-r from-blue-400 to-sky-700 p-10 rounded-xl w-3/4 m-5 w-auto">
+            <h1 className="text-3xl text-sky-300 font-bold">INFORMASI LAUNDRYBOX</h1>
             {/* <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
               Gatsby Theme
             </h2> */}
@@ -49,11 +49,11 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-amber-400">
+                      <p className="mb-2 font-bold underline decoration-sky-800">
                         No.HP
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="https://wa.me/6285178229373">085178229373</a>
+                        <a href="https://wa.me/6281382073188">081382073188</a>
                       </p>
                     </div>
                   </div>
@@ -79,12 +79,12 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-amber-400">
+                      <p className="mb-2 font-bold underline decoration-sky-800">
                         Email
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="mailto:seduhloka38@gmail.com" className="break-all">
-                          seduhloka38@gmail.com
+                        <a href="mailto:laundryb750@gmail.com" className="break-all">
+                          laundryb750@gmail.com
                         </a>
                       </p>
                     </div>
@@ -111,10 +111,10 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-amber-400">
+                      <p className="mb-2 font-bold underline decoration-sky-800">
                         Lokasi
                       </p>
-                      <a className="text-neutral-500 mb-2" href="https://maps.app.goo.gl/iGzDh77fo69WWkpc6">Jl. Danau Duta Selatan 17-2,RT.012/RW.014, Harapan Baru Kec. Bekasi Utara Kota Bekasi, Jawa Barat</a>
+                      <a className="text-neutral-500 mb-2" href="https://maps.app.goo.gl/bjT8BVkfDgMBtSFJ9">Jl. Kutruk Ranca Sadang,Kutruk, Kec. Jambe,Kabupaten Tangerang, Banten 15720</a>
                     </div>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-amber-400">
+                      <p className="mb-2 font-bold underline decoration-sky-800">
                         Jam Kerja
                       </p>
                       <p className="text-neutral-500 mb-2">Senin-Minggu</p>

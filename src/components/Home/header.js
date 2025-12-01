@@ -1,6 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import hero from "../../images/logo.png"
+import hero from "../../images/logo-web.png"
 
 const Header = () => {
   return (
@@ -16,16 +16,16 @@ const Header = () => {
             {/* Judul Utama dengan animasi ketik */}
             <h2 className="relative text-4xl sm:text-5xl md:text-6xl font-bold mt-3 leading-tight">
               <span
-                className="relative animate-typing-home"
+                // className="relative animate-typing-home"
                 style={{
-                  background: "linear-gradient(to top, #CC8855, #8C6B4B)",
+                  background: "linear-gradient(to top, #0474bc, #052032)",
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                   color: "transparent",
                   fontWeight: "bold",
                 }}
               >
-                SeduhLoka
+                LaundryBox
               </span>
             </h2>
 
@@ -34,8 +34,8 @@ const Header = () => {
               <a
                 href="/about"
                 className="flex items-center justify-center px-6 py-2 sm:px-8 sm:py-3 text-base font-medium rounded-md 
-                bg-gradient-to-r from-amber-500 to-amber-800 
-                text-white hover:text-blue-600 border border-amber-500 
+                bg-gradient-to-r from-sky-700 to-sky-400
+                text-white hover:text-gray-300 border border-gray-500
                 transition-all duration-300 hover:scale-105 shadow-lg"
               >
                 Klik Disini

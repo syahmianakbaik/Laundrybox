@@ -23,20 +23,20 @@ const FeatureSection = () => {
 
         {/* Teks */}
         <div className="w-full lg:w-1/2 text-center lg:text-right flex flex-col justify-center">
-         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight text-center lg:text-right bg-gradient-to-b from-amber-500 to-amber-800 bg-clip-text text-transparent drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)]">
-            Setiap Seduhan, Rasa di Rumah.
+         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-center lg:text-right bg-gradient-to-t from-sky-700 to-sky-500 bg-clip-text text-transparent drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)]">
+            Bersih Kilat, Hidup Nyaman Terawat.
          </h2>
           <p className="mt-4 text-gray-800 text-justify sm:text-lg leading-relaxed px-2 sm:px-0">
-          Menciptakan tempat di mana kualitas kopi premium tidak terasa intimidating, dan setiap pengunjung merasa seperti kembali ke rumah. Kami percaya bahwa kopi terbaik adalah kopi yang dibuat dengan hati dan disajikan di lingkungan yang nyaman.
+          Kami hadir untuk menghilangkan repotnya mencuci. Dengan layanan cepat, kualitas bersih terjamin, dan sistem antar-jemput yang praktis, waktu Anda kini bisa fokus pada hal yang lebih penting.
           </p>
 
           <div className="mt-6 flex justify-center lg:justify-end">
             <a
               href="/gallery"
               className="inline-flex items-center justify-center px-6 py-3 text-sm sm:text-base font-medium rounded-md 
-                bg-gradient-to-r from-amber-500 to-amber-800
-                text-white hover:text-black border border-amber-500 
-                transition-transform duration-300 hover:scale-105 shadow-md"
+                bg-gradient-to-r from-sky-700 to-sky-400
+                text-white hover:text-gray-300 border border-gray-500
+                transition-all duration-300 hover:scale-105 shadow-lg"
             >
               Lihat Galeri
               <svg
@@ -61,27 +61,24 @@ const FeatureSection = () => {
       {/* Visi Misi */}
       <Fade bottom cascade>
         <div className="mt-10 flex flex-col lg:flex-row gap-6">
-          <div className="bg-gradient-to-b from-amber-500 to-amber-800 p-6 rounded-xl flex-1 shadow-md">
+          <div className="bg-gradient-to-t from-sky-700 to-sky-400 p-6 rounded-xl flex-1 shadow-md">
             <h2 className="text-black font-semibold text-3xl sm:text-4xl">Visi</h2>
             <p className="mt-4 text-black text-lg leading-relaxed">
-              Menjadi coffeeshop pilihan utama yang dikenal karena kualitas seduhan premium dan menciptakan loka (tempat) yang hangat, menginspirasi, dan menjadi bagian penting dari komunitas sekitar.
+               Menjadi layanan laundry terdepan yang mengutamakan kenyamanan, kecepatan, dan kualitas, serta berkontribusi positif terhadap lingkungan dan komunitas sekitar.            
             </p>
           </div>
 
-          <div className="bg-gradient-to-b from-amber-500 to-amber-800 p-6 rounded-xl flex-1 shadow-md">
+          <div className="bg-gradient-to-t from-sky-700 to-sky-400 p-6 rounded-xl flex-1 shadow-md">
             <h2 className="text-black font-semibold text-3xl sm:text-4xl">Misi</h2>
             <ol className="mt-4 list-decimal list-inside space-y-2 text-black text-base sm:text-lg leading-relaxed">
               <li>
-                Menyajikan kopi dengan standar kualitas seduhan tertinggi, mulai dari pemilihan biji kopi lokal terbaik hingga teknik penyajian yang presisi.
+                Mengutamakan Kecepatan dan Ketepatan Waktu: Menyediakan layanan pencucian yang cepat dan tepat waktu untuk memaksimalkan efisiensi waktu pelanggan.
               </li>
               <li>
-                Membangun dan menjaga suasana kedai yang terasa seperti rumah (homey), menyediakan tempat yang ideal untuk bekerja, berkreasi, atau sekadar beristirahat.
+                Menyediakan Kemudahan Maksimal: Membangun dan mengoperasikan sistem pick-up dan delivery yang praktis dan efisien melalui teknologi yang mudah diakses.
               </li>
               <li>
-                Berkolaborasi dan mendukung petani kopi lokal serta menjadi platform bagi seniman dan pegiat komunitas di sekitar lokasi SeduhLoka.
-              </li>
-              <li>
-                Mengembangkan produk kopi yang unik dan memastikan pengalaman pelanggan yang cepat, ramah, dan efisien
+                Memastikan Kualitas Kebersihan dan Perawatan: Menggunakan standar operasional, peralatan, dan produk pencuci terbaik untuk memastikan setiap pakaian bersih higienis, terawat, dan kembali dalam kondisi sempurna.
               </li>
             </ol>
           </div>

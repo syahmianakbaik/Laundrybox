@@ -22,6 +22,8 @@ module.exports = {
       gray: colors.gray,
       transparent: colors.transparent,
       amber: colors.amber,
+      sky :colors.sky,
+      blue:colors.blue,
     },
     screens: {
       xxs: "320px",

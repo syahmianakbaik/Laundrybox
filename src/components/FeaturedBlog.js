@@ -10,20 +10,20 @@ const FeaturedBlog = () => {
           </h2>
            <h3 className="relative text-6xl font-bold">
           <span className="absolute inset-0 text-gray-300">Postingan Terbaru</span>
-          <span className="relative bg-gradient-to-t from-amber-500 to-amber-800 bg-clip-text text-transparent">
+          <span className="relative bg-gradient-to-l from-sky-600 to-sky-800 bg-clip-text text-transparent">
             Postingan Terbaru
           </span>
           </h3>
-          <div className="blog-hover bg-gradient-to-b from-amber-500 to-amber-800 border mt-10 border-amber-500 rounded-lg p-8 md:p-12 mb-8">
+          <div className="blog-hover bg-gradient-to-b from-sky-400 to-sky-700 border mt-10 border-gray-500 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-semibold mb-2">
-             Arabika vs Robusta Mana yang Cocok untuk Seduhan Harianmu?
+             Stop Buang Waktu! 5 Alasan Laundrybox Adalah Solusi Cuci Cepat Tepat
             </h2>
             <p className="text-lg  text-black opacity-70 mb-6">
-              Pernahkah Anda bertanya-tanya mengapa ada kopi yang pahitnya kuat dan ada yang aromanya lebih lembut? Jawabannya ada pada dua jenis biji kopi paling populer di dunia: Arabika dan Robusta. Di SeduhLoka, kami percaya setiap seduhan adalah pengalaman, dan pengalaman terbaik dimulai dengan pemahaman. Mari kita bedah perbedaannya!
+              Apakah Anda lelah menunggu laundry berhari-hari? Temukan bagaimana layanan Express Laundry dari Laundrybox dapat menghemat waktu berharga Anda, menjamin bersih maksimal, dan siap antar-jemput kilat!
             </p>
             <a
               href="/blog/blog-post"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-amber-400 rounded-lg border border-amber-500 hover:bg-amber-800"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-gray-200 rounded-lg border border-white hover:bg-sky-400"
             >
               Baca Selengkapnya
               <svg
@@ -44,16 +44,16 @@ const FeaturedBlog = () => {
             </a>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="blog-hover bg-gradient-to-b from-amber-500 to-amber-800 rounded-lg p-8 md:p-12">
+            <div className="blog-hover bg-gradient-to-b from-sky-400 to-sky-700 rounded-lg p-8 md:p-12">
               <h2 className="text-black text-3xl font-semibold mb-2">
-                Rahasia Seduhan Sempurna: Tips Barista SeduhLoka untuk Kopi Rumahanmu
+                Laundrybox Resmi Hadir! Nikmati Express Laundry dengan Jaminan Antar-Jemput Kilat
               </h2>
               <p className="text-lg font-normal text-black opacity-70 mb-4">
-               Siapa bilang kopi enak hanya bisa dinikmati di coffeeshop? Dengan sedikit tips dari Barista SeduhLoka, Anda bisa menciptakan seduhan yang tak kalah nikmat di kenyamanan rumah Anda sendiri. Siapkan alat seduh favoritmu, mari kita mulai!
+              Kami siap melayani Anda! Baca pengumuman resmi peluncuran Laundrybox di kota Anda. Dapatkan diskon khusus layanan Express dan rasakan pengalaman laundry paling efisien!
               </p>
               <a
                 href="/blog/blog-post-1"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-amber-400 rounded-lg border border-amber-500 hover:bg-amber-800"
+                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-gray-200 rounded-lg border border-white hover:bg-sky-400"
               >
                 Baca Selengkapnya
                 <svg
@@ -73,16 +73,16 @@ const FeaturedBlog = () => {
                 </svg>
               </a>
             </div>
-            <div className="blog-hover bg-gradient-to-b from-amber-500 to-amber-800 rounded-lg p-8 md:p-12">
+            <div className="blog-hover bg-gradient-to-b from-sky-400 to-sky-700 rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-semibold mb-2">
-                Di Balik Setiap Seduhan: Kisah SeduhLoka dan Komunitas Kami
+               Waktunya Pensiun dari Mesin Cuci! Kenapa Generasi Sibuk Pilih Laundrybox?
               </h2>
               <p className="text-lg font-normal text-black opacity-70 mb-4">
-                Sejak pintu SeduhLoka pertama kali terbuka, kami selalu memiliki satu tujuan: menjadi lebih dari sekadar coffeeshop. Kami ingin menjadi sebuah tempat di mana orang-orang bisa berkumpul, berbagi cerita, dan merasa seperti di rumah.
+                Laundrybox hadir sebagai upgrade gaya hidup. Simak fitur antar-jemput yang super praktis, layanan express, dan garansi kebersihan yang membuat hidup Anda lebih ringan.
               </p>
               <a
                 href="/blog/blog-post-2"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-amber-400 rounded-lg border border-amber-500 hover:bg-amber-800"
+                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-gray-200 rounded-lg border border-white hover:bg-sky-400"
               >
                 Baca Selengkapnya
                 <svg

@@ -1,20 +1,20 @@
 import { Link } from "gatsby";
 import React from "react";
-import logo from "../images/logo.png";
+import logo from "../images/logo-web.png";
 
 const Footer = () => {
   return (
-    <footer className="site-footer bg-gradient-to-b from-amber-300 to-amber-600  mt-20 rounded-2xl shadow-inner text-gray-800">
+    <footer className="site-footer bg-gradient-to-b from-sky-300 to-sky-500  mt-20 rounded-2xl shadow-inner text-gray-800">
       <div className="max-w-7xl mx-auto px-8 py-12 grid grid-cols-1 md:grid-cols-4 gap-10 text-center md:text-left">
         
         {/* Logo & Deskripsi */}
         <div>
           <div className="flex justify-center md:justify-start items-center space-x-2">
             <img src={logo} alt="Logo SMP Daan Mogot" className="h-20 w-20 object-contain" />
-            <h2 className="text-xl font-bold text-gray-900">SeduhLoka</h2>
+            <h2 className="text-xl font-bold text-gray-900">LaundryBox</h2>
           </div>
           <p className="text-gray-700 text-sm mt-3">
-            Setiap Seduhan, Rasa di Rumah.
+            Bersih Kilat, Hidup Nyaman Terawat.
           </p>
         </div>
 
@@ -69,16 +69,16 @@ const Footer = () => {
           <h3 className="font-semibold text-gray-900 mb-3">Informasi Perusahaan</h3>
           <h4>Alamat:</h4>
           <a className="text-gray-700 text-sm hover:underline footer-link" href="https://maps.app.goo.gl/iGzDh77fo69WWkpc6">
-           Jl. Danau Duta Selatan 17-2,RT.012/RW.014,<br>
-           </br>Harapan Baru Kec. Bekasi Utara<br>
-           </br>Kota Bekasi, Jawa Barat
+            Jl. Kutruk Ranca Sadang,<br>
+           </br>Kutruk, Kec. Jambe,<br>
+           </br>Kabupaten Tangerang, Banten 15720
           </a>
           <h4 className="mt-3">Email:</h4>  
           <a
-            href="mailto:seduhloka38@gmail.com"
+            href="mailto:laundryb750@gmail.com"
             className="footer-email text-gray-700 text-sm mt-2 block"
           >
-            seduhloka38@gmail.com
+            laundryb750@gmail.com
           </a>
         </div>
         {/* Ikuti Kami (Sosial Media) */}
@@ -86,7 +86,7 @@ const Footer = () => {
           <h3 className="font-semibold text-gray-900 mb-3">Ikuti Kami</h3>
           <div className="flex space-x-4">
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/loundry_box/"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-social"
@@ -122,8 +122,8 @@ const Footer = () => {
       </div>
 
       {/* Garis pemisah dan copyright */}
-      <div className="border-t border-amber-400 mt-8 pt-4 pb-4 text-center text-sm text-gray-800">
-        © {new Date().getFullYear()} SeduhLoka. All rights reserved.
+      <div className="border-t border-sky-800 mt-8 pt-4 pb-4 text-center text-sm text-gray-800">
+        © {new Date().getFullYear()} laundrybox. All rights reserved.
       </div>
     </footer>
   );
