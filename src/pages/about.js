@@ -12,8 +12,8 @@ const About = () => {
   return (
     <Layout>
       <Seo
-        title="Tentang SeduhLoka"
-        description="Pelajari lebih lanjut tentang filosofi SeduhLoka. Kami menyajikan biji kopi pilihan (Arabika & Robusta) dengan suasana kedai yang hangat dan cozy untuk Anda."
+        title="Tentang laundrybox"
+        description="Pelajari lebih lanjut tentang LaundryBox, layanan laundry premium kami yang berkomitmen untuk memberikan kualitas terbaik, kecepatan, dan kenyamanan bagi pelanggan modern."
       ></Seo>
       <AboutHeader></AboutHeader>
       <AboutPage></AboutPage>

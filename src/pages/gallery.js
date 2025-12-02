@@ -7,8 +7,8 @@ const GalleryPage = () => {
   return (
     <Layout>
       <Seo
-        title="Menu SeduhLoka"
-        description="Cicipi menu spesial SeduhLoka! Dari Iced Latte yang unik, Hot Cappucino, hingga Manual Brew V60 dari biji kopi pilihan terbaik."
+        title="gallery | Laundrybox"
+        description="Lihat koleksi foto layanan laundry premium Laundrybox kami. Temukan bagaimana kami merawat pakaian Anda dengan kualitas terbaik dan perhatian terhadap detail."
       ></Seo>
       <Gallery></Gallery>
     </Layout>

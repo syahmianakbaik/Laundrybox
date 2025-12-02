@@ -1,9 +1,9 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import BackGroud from "../images/iced.png"
-import Galeri2 from "../images/Kopi.png"
-import Galeri3 from "../images/hot latte.png"
-import Galeri4 from "../images/manual-brew.png"
+import BackGroud from "../images/galery1.jpg"
+import Galeri2 from "../images/galery2.jpg"
+import Galeri3 from "../images/galery3.jpg"
+import Galeri4 from "../images/galery4.jpg"
 
 const Gallery = () => {
   return (
@@ -11,14 +11,14 @@ const Gallery = () => {
       <Fade Duration={2200}>
       <div className="mb-8">
         <div className="transition duration-1000 ease-out opacity-100">
-          <div className="w-full bg-gradient-to-r from-amber-300 to-amber-500 p-6 sm:p-8 rounded-xl">
+          <div className="w-full bg-gradient-to-r from-sky-600 to-sky-500 p-6 sm:p-8 rounded-xl">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-4">
-              <span className="bg-gradient-to-t from-amber-500 to-amber-800 bg-clip-text text-transparent">
-                GALERI SEDUHLOKA
+              <span className="bg-gradient-to-t from-sky-500 to-sky-200 bg-clip-text text-transparent">
+                GALERI LAUNDRYBOX
               </span>
             </h2>
             <p className="text-base sm:text-lg mt-4 text-gray-800 text-center opacity-90">
-              Selamat datang di Galeri Menu SeduhLoka. Di sini anda bisa melihat semua racikan kopi dan makanan pendamping yang kami tawarkan, jelajahi daftar menu kami dan temukan cita rasa yang sesuai dengan selera anda.
+              Selamat datang di Galeri Laundrybox. Di sini, kami menampilkan secara transparan proses kerja kami yang menjamin pakaian Anda selalu kembali dalam kondisi terbaik.
             </p>
           </div>
         </div>
@@ -35,12 +35,12 @@ const Gallery = () => {
             <img
               src={BackGroud}
               loading="lazy"
-              alt="Iced Coffee SeduhLoka"
+              alt="serahkan pada ahli kami"
               className="absolute inset-0 h-full w-full object-cover object-center transition duration-300 group-hover:scale-105"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent opacity-50"></div>
             <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg font-medium">
-              Iced Coffee SeduhLoka
+              Serahkan pada Ahli Kami
             </span>
           </a>
           <a
@@ -50,12 +50,12 @@ const Gallery = () => {
             <img
               src={Galeri2}
               loading="lazy"
-              alt="Hot Latte SeduhLoka"
+              alt="mesin industri canggih"
               className="absolute inset-0 h-full w-full object-cover object-center transition duration-300 group-hover:scale-105"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent opacity-50"></div>
             <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg font-medium">
-              Hot Latte SeduhLoka
+              Mesin Industri Canggih
             </span>
           </a>
           <a
@@ -65,12 +65,12 @@ const Gallery = () => {
             <img
               src={Galeri3}
               loading="lazy"
-              alt="Hot Cappuccino SeduhLoka"
+              alt="Rapi, Siap Pakai, dan Terawat"
               className="absolute inset-0 h-full w-full object-cover object-center transition duration-300 group-hover:scale-105"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent opacity-50"></div>
             <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg font-medium">
-              Hot Cappuccino SeduhLoka
+              Rapi, Siap Pakai, dan Terawat
             </span>
           </a>
           <a
@@ -80,12 +80,12 @@ const Gallery = () => {
             <img
               src={Galeri4}
               loading="lazy"
-              alt="Manual Brew SeduhLoka"
+              alt="KUALITAS dari Bahan hingga Finishing"
               className="absolute inset-0 h-full w-full object-cover object-center transition duration-300 group-hover:scale-105"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent opacity-50"></div>
             <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg font-medium">
-              Manual Brew SeduhLoka
+              Kualitas dari Bahan hingga Finishing
             </span>
           </a>
           

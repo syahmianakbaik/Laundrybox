@@ -12,7 +12,7 @@ const Contact = () => {
     <Layout>
       <Seo
         title="Kontak LoundryBox"
-        description="Cari tahu alamat LaundryBox di Bekasi Utara, jam operasional, dan informasi kontak (telepon & email). Siap melayani pemesanan event dan pertanyaan Anda."
+        description="Cari tahu alamat LaundryBox di tangerang tigaraksa, jam operasional, dan informasi kontak (telepon & email). Siap melayani dan menjawab pertanyaan Anda."
       ></Seo>
 
       <div className="max-w-7xl mx-auto mt-10 flex text-sky-200 xxs:flex-col sm:flex-row">

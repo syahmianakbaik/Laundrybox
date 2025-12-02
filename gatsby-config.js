@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Setiap Seduhan, Rasa di Rumah.`,
+    title: `Cuci Kilat Tepat dan Premium Care.`,
     description: `Menciptakan tempat di mana kualitas kopi premium tidak terasa intimidating, dan setiap pengunjung merasa seperti kembali ke rumah. Kami percaya bahwa kopi terbaik adalah kopi yang dibuat dengan hati dan disajikan di lingkungan yang nyaman.`,
     siteUrl: "https://seduhlokacoffee.netlify.app/",
     author: `M.Bintang Insan Cemerlang`,

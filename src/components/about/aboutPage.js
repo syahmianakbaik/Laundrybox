@@ -48,13 +48,24 @@ const WorkPage = () => {
         </h3> */}
 
         <p className="text-black font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          SeduhLoka lahir dari sebuah filosofi sederhana bahwa kopi terbaik adalah kopi yang dibuat dengan hati dan disajikan di tempat yang terasa seperti rumah. Nama kami, gabungan dari "Seduh" (proses teliti membuat kopi) dan "Loka" (tempat), mencerminkan visi kami: menciptakan coffeeshop yang menjadi loka yang hangat, nyaman, dan menjadi pelabuhan favorit bagi siapa pun yang mencari kualitas dan ketenangan. Kami hadir bukan sekadar untuk menjual kafein, tetapi untuk menyajikan pengalaman seduh premium dalam suasana yang merangkul Anda.
+          Laundrybox hadir sebagai jawaban atas tuntutan gaya hidup modern yang serba cepat, menawarkan solusi laundry 
+          premium yang mengutamakan kualitas, higienitas, dan efisiensi waktu Anda. Kami percaya bahwa tugas mencuci
+          pakaian seharusnya tidak menjadi beban yang menguras waktu dan energi. Oleh karena itu, kami didukung oleh
+          teknologi pencucian terkini dan tim profesional yang terlatih untuk menangani setiap helai pakaian Anda,
+          mulai dari pakaian harian, seragam kantor, hingga tekstil sensitif seperti gaun desainer atau karpet mewah.
+          Filosofi kami adalah memberikan hasil yang benar-benar bersih dan terawat sempurna, memastikan pakaian Anda 
+          tidak hanya terlihat baik tetapi juga memiliki umur pakai yang lebih panjang.</p>
+        <p className="text-black font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+          Komitmen kami terhadap kualitas tidak hanya berhenti pada mesin canggih, tetapi meluas hingga pemilihan bahan baku.
+          Kami menggunakan deterjen dan pewangi premium yang ramah lingkungan dan diformulasikan khusus untuk menjaga
+          kelembutan serat kain sekaligus efektif menghilangkan noda yang membandel. Setiap pakaian diperlakukan melalui
+          proses penanganan yang detail, dimulai dari inspeksi sebelum pencucian, penanganan noda spesifik, hingga proses
+          pengeringan dan setrika yang disesuaikan dengan jenis bahan. Hasilnya, pakaian dikembalikan dalam kondisi terbaik:
+          rapi, harum, dan siap pakai. Kami memperlakukan setiap pakaian yang masuk ke "box" kami sebagai investasi berharga 
+          yang harus dijaga keindahannya.
         </p>
         <p className="text-black font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-         Komitmen utama kami berakar pada kualitas yang tiada kompromi. Setiap cangkir kopi di SeduhLoka adalah hasil dari proses pemilihan biji yang cermat—berasal dari petani lokal dan regional yang kami dukung—dan teknik penyeduhan yang presisi oleh Barista kami yang terlatih. Kami percaya pada transparansi, memastikan bahwa biji kopi yang Anda nikmati tidak hanya lezat tetapi juga memiliki cerita dan dampak positif. Kami menjembatani hasil kerja keras petani dengan cangkir sempurna Anda, menjadikan setiap seduhan menjadi momen yang berharga.
-        </p>
-        <p className="text-black font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          SeduhLoka lebih dari sekadar kedai, kami adalah pusat komunitas yang aktif. Kami menyediakan ruang yang ideal bagi Anda untuk bekerja, berkreasi, atau sekadar berbagi tawa bersama teman. Kami mengundang Anda untuk merasakan langsung perbedaan rasa di rumah yang kami tawarkan. Kunjungi SeduhLoka hari ini, rasakan kehangatan loka kami, dan temukan kopi harian sempurna Anda. Kami menantikan kehadiran Anda untuk berbagi cerita dan menikmati setiap tetesnya bersama.
+         Untuk memaksimalkan kenyamanan pelanggan, Laundrybox mengintegrasikan layanan kami dengan kemudahan akses digital. Melalui platform yang mudah digunakan, Anda dapat menjadwalkan layanan antar-jemput, memantau status pesanan, dan menerima kembali pakaian Anda yang sudah dikemas secara eksklusif dan profesional—tepat waktu di depan pintu rumah Anda. Kami hadir bukan hanya sebagai penyedia jasa laundry, tetapi sebagai mitra tepercaya yang membantu Anda mendapatkan kembali waktu berharga Anda. Laundrybox adalah pilihan cerdas bagi Anda yang menginginkan kebersihan optimal tanpa harus mengorbankan waktu dan tenaga.
         </p>
       </div>
     </div>

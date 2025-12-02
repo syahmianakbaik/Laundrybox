@@ -4,7 +4,7 @@ import whatsappLogo from "../images/whatsapp.png"
 const WhatsAppButton = () => {
   return (
     <a
-      href="https://wa.me/6285178229373"
+      href="https://wa.me/6281382073188"
       target="_blank"
       rel="noopener noreferrer"
       style={{

@@ -13,8 +13,8 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <Seo
-        title="Blog SeduhLoka"
-        description="Baca artikel terbaru dari SeduhLoka. Temukan tips membuat kopi di rumah, review biji kopi lokal, panduan manual brew, dan berita terbaru dari coffeeshop kami di Bekasi."
+        title="Blog | Laundrybox"
+        description="jelajahi artikel terbaru kami tetang laundry, tips perawatan pakaian, dan inovasi dalam dunia laundry untuk menjaga pakaian Anda tetap segar dan awet."
       ></Seo>
       <BlogHeader post={HeaderPost} />
       <BlogsContainer data={otherPosts} />

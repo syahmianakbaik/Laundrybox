@@ -12,8 +12,8 @@ const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
       <Seo
-        title="SeduhLoka"
-        description="SeduhLoka menawarkan pengalaman ngopi serasa di rumah. Nikmati Arabika premium, Robusta lokal, dan suasana cozy di Bekasi. Setiap Seduhan, Rasa di Rumah"
+        title="LaundryBox"
+        description="LaundryBox adalah layanan laundry premium yang mengutamakan kualitas, kecepatan, dan kenyamanan bagi pelanggan modern."
       ></Seo>
       <Header></Header>
       <FeatureSection></FeatureSection>

@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/Kopi.png"
+import HeroImage from "../../images/baju.jpg"
 import Image1 from "../../images/All-guru.jpg"
 import Image2 from "../../images/ATS.jpg"
 import Image3 from "../../images/Kerja-bakti.jpg"
