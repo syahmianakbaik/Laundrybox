@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Cuci Kilat Tepat dan Premium Care.`,
-    description: `Menciptakan tempat di mana kualitas kopi premium tidak terasa intimidating, dan setiap pengunjung merasa seperti kembali ke rumah. Kami percaya bahwa kopi terbaik adalah kopi yang dibuat dengan hati dan disajikan di lingkungan yang nyaman.`,
+    description: `cuci kilat dengan layanan premium care untuk pakaian kesayangan Anda.`,
     siteUrl: "https://seduhlokacoffee.netlify.app/",
-    author: `M.Bintang Insan Cemerlang`,
+    author: `Fauzan Syahmi`,
   },
   plugins: [
     `gatsby-plugin-image`,
