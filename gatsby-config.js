@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Cuci Kilat Tepat dan Premium Care.`,
     description: `cuci kilat dengan layanan premium care untuk pakaian kesayangan Anda.`,
-    siteUrl: "https://seduhlokacoffee.netlify.app/",
+    siteUrl: "https://laundrybox.web.id",
     author: `Fauzan Syahmi`,
   },
   plugins: [
