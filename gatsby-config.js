@@ -4,7 +4,7 @@ module.exports = {
     description: `cuci kilat dengan layanan premium care untuk pakaian kesayangan Anda.`,
     siteUrl: "https://laundrybox.web.id",
     author: `Fauzan Syahmi`,
-    keywords: [`laundry`, `cuci`, `laundrybox`, `cuci kilat`, `premium care`],
+    keywords: [`laundry`, `cuci`, `laundrybox`, `cuci kilat`, `premium care`, `laundry premium`],
   },
   plugins: [
     `gatsby-plugin-image`,
