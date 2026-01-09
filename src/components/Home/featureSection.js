@@ -2,14 +2,14 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/baju.jpg"
+import HeroImage from "../../images/baju.webp"
 import Image1 from "../../images/All-guru.jpg"
 import Image2 from "../../images/ATS.jpg"
 import Image3 from "../../images/Kerja-bakti.jpg"
 
 const FeatureSection = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-[200px]">
       {/* Hero Section */}
       <div className="flex flex-col lg:flex-row items-center gap-8 mt-10">
         {/* Gambar */}
@@ -18,6 +18,10 @@ const FeatureSection = () => {
             className="rounded-xl w-full object-cover aspect-[4/3] sm:aspect-video shadow-md"
             src={HeroImage}
             alt="HeroImage"
+            width={200}
+            height={60}
+            placeholder="blurred"
+            fetchPriority="high"
           />
         </div>
 

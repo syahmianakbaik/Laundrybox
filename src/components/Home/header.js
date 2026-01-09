@@ -1,6 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import hero from "../../images/logo-web.png"
+import hero from "../../images/logo-web.webp"
 
 const Header = () => {
   return (
@@ -9,23 +9,14 @@ const Header = () => {
         <div className="my-10 flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:my-20">
           {/* Bagian Teks */}
           <div className="text-center lg:text-left flex flex-col justify-center">
-            <h1 className="text-black text-2xl sm:text-3xl md:text-4xl font-semibold opacity-70 leading-snug">
+            <h1 className="text-black text-2xl sm:text-3xl md:text-4xl font-semibold opacity-70 leading-tight">
               SELAMAT DATANG DI WEBSITE KAMI
             </h1>
 
             {/* Judul Utama dengan animasi ketik */}
             <h2 className="relative text-4xl sm:text-5xl md:text-6xl font-bold mt-3 leading-tight">
-              <span
-                // className="relative animate-typing-home"
-                style={{
-                  background: "linear-gradient(to top, #0474bc, #052032)",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                  color: "transparent",
-                  fontWeight: "bold",
-                }}
-              >
-                LaundryBox
+              <span className="bg-gradient-to-t from-[#0474bc] to-[#052032] bg-clip-text text-transparent font-bold">
+              LaundryBox
               </span>
             </h2>
 
@@ -33,10 +24,9 @@ const Header = () => {
             <div className="mt-6 sm:mt-8 flex justify-center lg:justify-start">
               <a
                 href="/about"
-                className="flex items-center justify-center px-6 py-2 sm:px-8 sm:py-3 text-base font-medium rounded-md 
-                bg-gradient-to-r from-sky-700 to-sky-400
-                text-white hover:text-gray-300 border border-gray-500
-                transition-all duration-300 hover:scale-105 shadow-lg"
+                className="inline-block w-[160px] h-[48px] flex items-center justify-center text-base font-medium rounded-md
+                 bg-gradient-to-r from-sky-700 to-sky-400 text-white hover:text-gray-300 border border-gray-500 transition-transform 
+                 duration-300 hover:scale-105 shadow-lg"
               >
                 Klik Disini
                 <svg
@@ -63,7 +53,11 @@ const Header = () => {
             <img
               className="rounded-xl w-40 sm:w-52 md:w-64 lg:w-[60%] object-contain drop-shadow-lg"
               src={hero}
-              alt="Logo SeduhLoka"
+              alt="Logo LaundryBox"
+              width={200}
+              height={60}
+              placeholder="blurred"
+              fetchPriority="high"
             />
           </div>
         </div>
