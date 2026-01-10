@@ -4,7 +4,7 @@ module.exports = {
     description: `cuci kilat dengan layanan premium care untuk pakaian kesayangan Anda.`,
     siteUrl: "https://laundrybox.web.id",
     author: `Fauzan Syahmi`,
-    keywords: [`laundry`, `cuci`, `laundrybox`, `cuci kilat`, `premium care`, `laundry premium`],
+    keywords: ['Laundry Box Indonesia', 'Laundry kiloan terpercaya','Jasa laundry cepat dan bersih','Laundry kiloan murah di kutruk','- Laundry express kutruk'],
   },
   plugins: [
     `gatsby-plugin-image`,
