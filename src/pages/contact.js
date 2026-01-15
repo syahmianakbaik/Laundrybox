@@ -114,7 +114,7 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-sky-800">
                         Lokasi
                       </p>
-                      <a className="text-neutral-500 mb-2" href="https://maps.app.goo.gl/bjT8BVkfDgMBtSFJ9">Jl. Kutruk Ranca Sadang,Kutruk, Kec. Jambe,Kabupaten Tangerang, Banten 15720</a>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.86263633343884!2d106.4928637!3d-6.2897119!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4207ca0638a045%3A0x5f71413a8982b130!2sStockist%20HPAI%203raksa!5e0!3m2!1sid!2sid!4v1768484907393!5m2!1sid!2sid" width="100%" height="300" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
