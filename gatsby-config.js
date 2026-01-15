@@ -4,7 +4,7 @@ module.exports = {
     description: `cuci kilat dengan layanan premium care untuk pakaian kesayangan Anda.`,
     siteUrl: "https://laundrybox.web.id",
     author: `Fauzan Syahmi`,
-    keywords: ['Laundry Box Indonesia', 'Laundry kiloan terpercaya','Jasa laundry cepat dan bersih','Laundry kiloan murah di kutruk','- Laundry express kutruk'],
+    keywords: ['layanan laundry express tercepat','Laundry tanpa repot','laundry dengan kualitas premium','jasa laundry antar jemput kilat','solusi laundry untuk orang sibuk','laundry higienis 1 pelanggan 1 mesin','laundry cepat dan terpercaya','- pengalaman laundry tanpa repot','laundry hemat waktu untuk profesional'],
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -101,12 +101,39 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+  resolve: `gatsby-plugin-sitemap`,
+  options: {
+    query: `
+      {
+        site {
+          siteMetadata {
+            siteUrl
+          }
+        }
+        allSitePage {
+          nodes {
+            path
+          }
+        }
+      }
+    `,
+    serialize: ({ site, allSitePage }) =>
+      (allSitePage?.nodes || []).map(page => {
+        return {
+          url: new URL(page.path, site.siteMetadata.siteUrl).toString(),
+          changefreq: `daily`,
+          priority: 0.7,
+        };
+      }),
+  },
+},
     `gatsby-plugin-netlify`,
     `gatsby-plugin-gatsby-cloud`,
     "gatsby-plugin-postcss",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
-    `gatsby-plugin-sitemap`,
+    
   ],
 }

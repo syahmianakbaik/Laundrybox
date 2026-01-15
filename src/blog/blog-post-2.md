@@ -6,7 +6,17 @@ featuredimage: /img/blog1.jpg
 categories:
   - blog
 tags:
-  - blog
+  - laundrybox-kutruk
+  - laundry-modern
+  - laundry-premium
+  - laundry-express
+  - antar-jemput-laundry
+  - laundry-digital
+  - laundry-efisien
+  - laundry-profesional
+  - laundry-generasi-sibuk
+  - solusi-laundry
+
 description: Laundrybox hadir sebagai upgrade gaya hidup. Simak fitur antar-jemput yang super praktis, layanan express, dan garansi kebersihan yang membuat hidup Anda lebih ringan.
 ---
 ##

@@ -6,7 +6,18 @@ featuredimage: /img/blog2.jpg
 categories:
   - blog
 tags:
-  - blog
+  - laundrybox kutruk
+  - express-laundry
+  - antar-jemput-kilat
+  - laundry-cepat
+  - laundry-premium
+  - laundry-online
+  - laundry-modern
+  - laundry-higienis
+  - laundry-terpercaya
+  - layanan-laundry
+
+
 description: Kami siap melayani Anda! Baca pengumuman resmi peluncuran Laundrybox di kota Anda. Dapatkan diskon khusus layanan Express dan rasakan pengalaman laundry paling efisien!
 ---
 ##
