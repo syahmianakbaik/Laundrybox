@@ -68,7 +68,7 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-gray-900 mb-3">Informasi Perusahaan</h3>
           <h4>Alamat:</h4>
-          <a className="text-gray-700 text-sm hover:underline footer-link" href="https://maps.app.goo.gl/iGzDh77fo69WWkpc6">
+          <a className="text-gray-700 text-sm hover:underline footer-link" href="https://maps.app.goo.gl/z1qW5bEYpjpYrjCX8">
             Jl. Kutruk Ranca Sadang,<br>
            </br>Kutruk, Kec. Jambe,<br>
            </br>Kabupaten Tangerang, Banten 15720
